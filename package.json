@@ -26,7 +26,8 @@
     "build:prod": "ng build --configuration=production",
     "test": "ng test",
     "lint": "ng lint",
-    "version": "ng version"
+    "version": "ng version",
+    "package": "cd dist/angular-google-tag-manager/ && npm pack"
   },
   "private": true,
   "dependencies": {
